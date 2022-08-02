@@ -43,52 +43,61 @@
     <section id="navbar">
       <nav class="navbar">
         <div class="nav-row1">
-          <img src="./images/ineuron-logo.png" alt="logo" />
+          <img class="logo" src="./images/ineuron-logo.png" alt="logo" />
           <div class="header-search">
-            <i class="fa-light fa-magnifying-glass"></i>
+            <img
+              src="./images/search-icon.svg"
+              alt="search-icon"
+              class="search-icon"
+            />
             <input
+              class="search-bar"
               id="search-bar"
               type="text"
               name="search"
               placeholder="What do you want to learn?"
-              autocomplete="off"
             />
           </div>
           <div class="header-right">
-            <button class="signup">Sign up</button>
-            <button class="signin">sign in</button>
+            <button class="signup-btn">Sign up</button>
+            <button class="signin-btn">Sign in</button>
           </div>
         </div>
         <div class="nav-row2">
           <div class="dropdown">
-            <button class="dropbtn">
+            <button
+              aria-haspopup="true"
+              class="btn dropdown-toggle nav-btn"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Courses
-              <i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content">
-              <a href="" class="courses-list">DATA SCISNCE</a>
-              <a href="" class="courses-list">BIG DATA</a>
-              <a href="" class="courses-list">DATA ANALYTICS</a>
-              <a href="" class="courses-list">WEB DEVELOPMENT</a>
-              <a href="" class="courses-list">MOBILE DEVELOPMENT</a>
-              <a href="" class="courses-list">BLOCK CHAIN</a>
-              <a href="" class="courses-list">PROGRAMMING</a>
-              <a href="" class="courses-list">CYBER SECURITY</a>
-              <a href="" class="courses-list">TESTING</a>
-              <a href="" class="courses-list">DIGITAL MARKETING</a>
-              <a href="" class="courses-list">CLOUD</a>
-              <a href="" class="courses-list">DEVOPS</a>
-              <a href="" class="courses-list">IOT</a>
-              <a href="" class="courses-list">RPA</a>
-              <a href="" class="courses-list">AR VR</a>
-              <a href="" class="courses-list">SALESFORCE</a>
-              <a href="" class="courses-list">DATA STRUCTURE </a>
-              <a href="" class="courses-list">SYSTEM DESIGN</a>
-              <a href="" class="courses-list">DATA BASE</a>
-              <a href="" class="courses-list">APTITUDE</a>
-              <a href="" class="courses-list">RESUME</a>
-              <a href="" class="courses-list">K12</a>
-            </div>
+            <ul class="dropdown-menu">
+              <li><a href="" class="dropdown-item">DATA SCISNCE</a></li>
+              <li><a href="" class="dropdown-item">BIG DATA</a></li>
+              <li><a href="" class="dropdown-item">DATA ANALYTICS</a></li>
+              <li><a href="" class="dropdown-item">WEB DEVELOPMENT</a></li>
+              <li><a href="" class="dropdown-item">MOBILE DEVELOPMENT</a></li>
+              <li><a href="" class="dropdown-item">BLOCK CHAIN</a></li>
+              <li><a href="" class="dropdown-item">PROGRAMMING</a></li>
+              <li><a href="" class="dropdown-item">CYBER SECURITY</a></li>
+              <li><a href="" class="dropdown-item">TESTING</a></li>
+              <li><a href="" class="dropdown-item">DIGITAL MARKETING</a></li>
+              <li><a href="" class="dropdown-item">CLOUD</a></li>
+              <li><a href="" class="dropdown-item">DEVOPS</a></li>
+              <li><a href="" class="dropdown-item">IOT</a></li>
+              <li><a href="" class="dropdown-item">RPA</a></li>
+              <li><a href="" class="dropdown-item">AR VR</a></li>
+              <li><a href="" class="dropdown-item">SALESFORCE</a></li>
+              <li><a href="" class="dropdown-item">DATA STRUCTURE </a></li>
+              <li><a href="" class="dropdown-item">SYSTEM DESIGN</a></li>
+              <li><a href="" class="dropdown-item">DATA BASE</a></li>
+              <li><a href="" class="dropdown-item">APTITUDE</a></li>
+              <li><a href="" class="dropdown-item">RESUME</a></li>
+              <li><a href="" class="dropdown-item">K12</a></li>
+            </ul>
           </div>
 
           <a class="link" href="">One Neuron</a><a href="">Job Portal</a>
@@ -97,19 +106,24 @@
           <a class="link" href="">Hall of fame</a><a href="">Blog</a>
 
           <div class="dropdown">
-            <button class="dropbtn">
+            <button
+              aria-haspopup="true"
+              class="btn dropdown-toggle nav-btn"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Company
-              <i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content">
-              <a href="#" class="company-info-list">Contact us</a>
-              <a href="#" class="company-info-list">About us</a>
-              <a href="#" class="company-info-list">FAQs</a>
-              <a href="#" class="company-info-list">Hack-A-Thon</a>
-              <a href="#" class="company-info-list">Job assistance</a>
-              <a href="#" class="company-info-list">Job guarantee</a>
-              <a href="#" class="company-info-list"> Terms and conditions</a>
-              <a href="#" class="company-info-list">Privacy policy</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Contact us</a>
+              <a href="#" class="dropdown-item">About us</a>
+              <a href="#" class="dropdown-item">FAQs</a>
+              <a href="#" class="dropdown-item">Hack-A-Thon</a>
+              <a href="#" class="dropdown-item">Job assistance</a>
+              <a href="#" class="dropdown-item">Job guarantee</a>
+              <a href="#" class="dropdown-item"> Terms and conditions</a>
+              <a href="#" class="dropdown-item">Privacy policy</a>
             </div>
           </div>
         </div>
