@@ -9,17 +9,17 @@
 
 body {
     overflow-y: scroll;
+    background-color: #D4F6CC;
 }
 
 /* -----------------------NAVBAR--------------- */
 
 .navbar {
-    padding: 2% 6%;
+    padding: 1% 6%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
-    background-color: #D4F6CC;
+    gap: 1rem;
 }
 
 
@@ -39,7 +39,7 @@ body {
 
 .header-search {
     width: 35rem;
-    border: 2px solid #003865;
+    border: 2px solid #003057;
     border-radius: 5px;
     padding: 10px;
 }
@@ -64,7 +64,7 @@ body {
 .signup-btn {
     border: none;
     background-color: #D4F6CC;
-    color: #003865;
+    color: #003057;
     font-weight: 700;
     padding: 7px 25px;
     margin-right: 2rem;
@@ -86,18 +86,196 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 3rem;
 }
 
 .nav-row2 a {
     text-decoration: none;
-    color: #003865;
+    color: #003057;
 }
 
 .nav-btn {
-    color: #003865;
+    color: #003057;
     border: none;
 }
 
 .btn-courses:hover {
     border: none;
+}
+
+/* INTRODUCTION SECTION -1*/
+
+
+.indicators {
+    padding-bottom: 2%;
+}
+
+.intro {
+    padding: 5%;
+    margin: 2%;
+    border: none;
+    border-radius: 25px;
+    background-color: #F27405;
+    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.8);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.intro-content {
+    color: #000;
+    width: 50%;
+}
+
+.intro-content h3 {
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+
+.intro-content h3:after {
+    display: block;
+    content: " ";
+    width: 100px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+}
+
+.intro-content h1 {
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #003057;
+}
+
+.intro-content p {
+    margin-bottom: 5%;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+
+.intro2-img {
+    border-radius: 25px;
+}
+
+.intro3-img {
+    border-radius: 25px;
+}
+
+/* <!-- Introduction section 2 --> */
+
+#introduction-2 {
+    margin: 6% 6% 8%;
+}
+
+.introduction-2-header {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 6%;
+    color: #003057;
+    padding-bottom: 10px;
+    background: linear-gradient(#F27405, #F27405) bottom center no-repeat;
+    background-size: 150px 3px;
+    width: 100%;
+}
+
+.introduction-2-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.introduction-2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-2-content h1 {
+    margin-top: 40px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.introduction-2-content h1 span {
+    color: #003057;
+    font-weight: 900;
+    font-size: 2.4rem;
+}
+
+.courses {
+    width: 150px;
+    border-radius: 50%;
+    background-color: #F27405;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6);
+}
+
+.enrolled {
+    width: 150px;
+    border-radius: 50%;
+    background-color: #F27405;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6);
+}
+
+.job {
+    width: 150px;
+    border-radius: 50%;
+    background-color: #F27405;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6);
+}
+
+/* <!-- TEACHERS SECTION --> */
+
+#teachers {
+    background-color: #F27405;
+    padding: 5%;
+}
+
+.teacher-heading {
+    font-size: 3rem;
+    color: #003057;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.teachercard {
+    padding: 0%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.teachercard h2 {
+    font-size: 1.5rem;
+    color: #003057;
+}
+
+.teacher-img {
+    border-radius: 50%;
+    background-color: #D4F6CC;
+}
+
+.visitbtn {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.visitbtn :nth-child(2) {
+    color: #ef4430;
 }
