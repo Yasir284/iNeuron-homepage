@@ -12,6 +12,25 @@ body {
     background-color: #D4F6CC;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #D4F6CC;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: blue;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid orange;
+    /* creates padding around scroll thumb */
+}
+
 /* -----------------------NAVBAR--------------- */
 
 .navbar {
@@ -38,7 +57,7 @@ body {
 }
 
 .header-search {
-    width: 35rem;
+    width: 34rem;
     border: 2px solid #003057;
     border-radius: 5px;
     padding: 10px;
