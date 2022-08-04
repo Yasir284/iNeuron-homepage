@@ -20,7 +20,7 @@
 
 ## 🛠 Skills learned
 
-HTML, CSS
+HTML, CSS,Bootstrap
 
 ---
 
