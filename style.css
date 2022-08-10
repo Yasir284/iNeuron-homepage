@@ -134,8 +134,23 @@ body::-webkit-scrollbar-thumb {
     border: none;
 }
 
-.btn-courses:hover {
-    border: none;
+
+.hover-item {
+    transition: all 200ms ease-in-out;
+}
+
+.hover-item:hover {
+    background: #FED8B1;
+    color: #003057;
+}
+
+.hover-btn {
+    color: #003057;
+    transition: all 200ms ease-in-out;
+}
+
+.hover-btn:hover {
+    color: #F27405;
 }
 
 /* INTRODUCTION SECTION -1*/
@@ -376,10 +391,12 @@ body::-webkit-scrollbar-thumb {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6);
+    transition: all 200ms ease-in-out;
 }
 
 .achiver-story:hover {
-    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6) inset;
+    box-shadow: 0.1px 0.1px 0.1px rgba(51, 51, 51, 0.6), 4px 4px 7px rgba(51, 51, 51, 0.6) inset;
+    cursor: pointer;
 }
 
 .achiver-info {
@@ -492,11 +509,11 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .programs-container-2-col:hover {
-    box-shadow: 0.1px 0.1px 0.1px rgba(51, 51, 51, 0.6), 3px 3px 7px rgba(51, 51, 51, 0.6) inset;
+    box-shadow: 0.1px 0.1px 0.1px rgba(51, 51, 51, 0.6), 4px 4px 7px rgba(51, 51, 51, 0.5) inset;
     cursor: pointer;
 }
 
@@ -683,7 +700,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .social-icons {
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .social-icons:hover {
@@ -715,7 +732,7 @@ body::-webkit-scrollbar-thumb {
 .address a {
     text-decoration: none;
     color: #fff;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .address a:hover {
@@ -732,7 +749,7 @@ body::-webkit-scrollbar-thumb {
 .p2-a {
     text-decoration: none;
     color: #fff;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .p2-a:hover {
@@ -764,7 +781,7 @@ body::-webkit-scrollbar-thumb {
 .company-list-item a {
     text-decoration: none;
     color: #fff;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .company-list-item a:hover {
@@ -791,7 +808,7 @@ body::-webkit-scrollbar-thumb {
 .product-list-item a {
     text-decoration: none;
     color: #fff;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .product-list-item a:hover {
