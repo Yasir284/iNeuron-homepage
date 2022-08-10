@@ -449,29 +449,20 @@ body::-webkit-scrollbar-thumb {
 .programs-list-item {
     color: #000;
     background-color: #fff;
-    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6);
     padding: 10px;
     border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6);
     transition: all 300ms ease-in-out;
 }
 
 .programs-list-item:hover {
-    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6) inset;
+    box-shadow: 0.1px 0.1px 0.1px rgba(51, 51, 51, 0.6), 3px 3px 7px rgba(51, 51, 51, 0.6) inset;
     cursor: pointer;
 }
 
-.programs-list-item-active:hover {
-    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6) inset;
-    cursor: pointer;
-}
-
-.programs-list-item-active {
-    color: #000;
+.programs-active {
     background-color: #F27405;
-    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6);
-    padding: 10px;
-    border-radius: 5px;
-    transition: all 300ms ease-in-out;
+    color: #003057;
 }
 
 .programs-container-2-row {
@@ -501,10 +492,12 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
+    transition: all 300ms ease-in-out;
 }
 
 .programs-container-2-col:hover {
-    box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6) inset;
+    box-shadow: 0.1px 0.1px 0.1px rgba(51, 51, 51, 0.6), 3px 3px 7px rgba(51, 51, 51, 0.6) inset;
+    cursor: pointer;
 }
 
 .program-content {
@@ -544,14 +537,29 @@ body::-webkit-scrollbar-thumb {
     background-color: #ef4430;
     padding: 5px 20px;
     border-radius: 5px;
+    transition: all 300ms ease-in-out;
+}
+
+.program-price a:hover {
+    box-shadow: 2px 2px 10px rgba(51, 51, 51, 0.6) inset;
 }
 
 .view-more {
     text-align: center;
     margin-top: 5%;
+}
+
+.view-more a {
+    text-decoration: none;
+    text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
     color: #333;
+    transition: all 300ms ease-in-out;
+}
+
+.view-more a:hover {
+    color: #F27405;
 }
 
 .program1-img {
@@ -669,6 +677,18 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 4%;
 }
 
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons {
+    transition: all 300ms ease-in-out;
+}
+
+.social-icons:hover {
+    color: #F27405;
+}
 
 .footer-inner {
     display: flex;
@@ -692,11 +712,31 @@ body::-webkit-scrollbar-thumb {
     gap: 1.5rem;
 }
 
+.address a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+
+.address a:hover {
+    color: #F27405;
+}
+
 .email {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1.5rem;
+}
+
+.p2-a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+
+.p2-a:hover {
+    color: #F27405;
 }
 
 .p1 {
@@ -721,6 +761,16 @@ body::-webkit-scrollbar-thumb {
     gap: 0.6rem;
 }
 
+.company-list-item a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+
+.company-list-item a:hover {
+    color: #F27405;
+}
+
 .products h2 {
     font-size: 3rem;
     background: linear-gradient(#F27405, #F27405)left bottom no-repeat;
@@ -736,4 +786,14 @@ body::-webkit-scrollbar-thumb {
     align-items: flex-start;
     list-style: none;
     gap: 0.6rem;
+}
+
+.product-list-item a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+
+.product-list-item a:hover {
+    color: #F27405;
 }
