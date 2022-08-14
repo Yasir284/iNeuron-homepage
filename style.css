@@ -9,7 +9,7 @@
 
 body {
     overflow-y: scroll;
-    background-color: #D4F6CC;
+    background-color: #fbfeff;
 }
 
 body::-webkit-scrollbar {
@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #D4F6CC;
+    background: #fbfeff;
     /* color of the tracking area */
 }
 
@@ -72,7 +72,7 @@ body::-webkit-scrollbar-thumb {
     border: none;
     margin-left: 20px;
     color: #fff;
-    background-color: #D4F6CC;
+    background-color: #fbfeff;
 }
 
 .search-bar::placeholder {
@@ -82,7 +82,7 @@ body::-webkit-scrollbar-thumb {
 
 .signup-btn {
     border: none;
-    background-color: #D4F6CC;
+    background-color: #fbfeff;
     color: #003057;
     font-weight: 700;
     padding: 7px 25px;
@@ -317,7 +317,7 @@ body::-webkit-scrollbar-thumb {
 
 .teacher-img {
     border-radius: 50%;
-    background-color: #D4F6CC;
+    background-color: #fbfeff;
 }
 
 .visitbtn {
@@ -362,7 +362,7 @@ body::-webkit-scrollbar-thumb {
 #achivers {
     padding: 5%;
     /* background-color: rgb(242, 116, 5); */
-    background: linear-gradient(#F27405 45%, #FFEE63);
+    background: linear-gradient(90deg, #FED54A, #FF9347);
     border-radius: 25px;
     box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.6);
 }
